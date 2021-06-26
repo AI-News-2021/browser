@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+      "module": "CommonJS",
+      "outDir": "lib",
+      "types": [
+        "node",
+      ],
+      "declaration": true,
+      "baseUrl": "./src",
+      "noImplicitAny": false,
+      "skipLibCheck": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "moduleResolution": "node",
+      "allowJs": true,
+      "target": "es6",
+    },
+    "include": [
+      "src/**/*",
+    ],
+    "exclude": [
+      "node_modules",
+      "**/*.spec.ts"
+    ],
+    "ts-node": {
+      "files": true
+    }
+  }
+  
