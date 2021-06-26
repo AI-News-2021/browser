@@ -1,3 +1,3 @@
-import { openBrowser } from 'browser';
+import openBrowser from './browser/index';
 
 export { openBrowser };
