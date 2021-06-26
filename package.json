@@ -1,6 +1,6 @@
 {
   "name": "@ai-news-2021/browser",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Browser based on puppeteer for all ai-news crawler",
   "main": "lib/main.js",
   "types": "lib/main.d.ts",
@@ -12,7 +12,7 @@
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "lint:fix": "tslint -p tsconfig.json --fix",
-    "publish": "yarn build && npm publish"
+    "publish-pkg": "yarn build && yarn publish"
   },
   "dependencies": {
     "puppeteer": "^10.0.0"
@@ -20,9 +20,9 @@
   "devDependencies": {
     "@types/node": "^15.12.4",
     "@types/puppeteer": "^5.4.3",
+    "prettier": "^2.3.0",
     "ts-node": "^10.0.0",
     "tslib": "^2.3.0",
-    "prettier": "^2.3.0",
     "tslint": "^6.1.3",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.3.4"
