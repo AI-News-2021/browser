@@ -7,7 +7,6 @@
   "files": [
     "lib/**/*"
   ],
-  "private": true,
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",

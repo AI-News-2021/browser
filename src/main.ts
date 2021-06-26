@@ -1,3 +1,3 @@
-import { openbrowser } from 'browser';
+import { openBrowser } from 'browser';
 
-export { openbrowser };
+export { openBrowser };
