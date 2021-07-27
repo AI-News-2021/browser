@@ -10,7 +10,8 @@ const openBrowser = async (proxy?: string) => {
         // @ts-ignore
         headless: !!isProd,
         args: [
-            proxy ? `--proxy-server=${proxy}` : ''
+            proxy ? `--proxy-server=${proxy}` : '',
+            '--no-sandbox', '--disable-setuid-sandbox'
         ]
     })
 
