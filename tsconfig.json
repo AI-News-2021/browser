@@ -20,6 +20,7 @@
       "src/**/*",
     ],
     "exclude": [
+      "src/browser/chrome-extensions",
       "node_modules",
       "**/*.spec.ts"
     ],
