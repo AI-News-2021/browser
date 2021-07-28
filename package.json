@@ -1,6 +1,6 @@
 {
   "name": "@ai-news-2021/browser",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Browser based on puppeteer for all ai-news crawler",
   "main": "lib/main.js",
   "types": "lib/main.d.ts",
